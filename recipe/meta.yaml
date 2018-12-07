@@ -39,10 +39,6 @@ requirements:
 test:
   imports:
     - gribapi
-  commands:
-    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
-    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
-
 
 about:
   home: https://software.ecmwf.int/wiki/display/GRIB/Home
